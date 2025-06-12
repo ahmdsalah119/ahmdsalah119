@@ -1,18 +1,36 @@
-#quota h1{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 80px;
+body{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    background-color: #F7ECDE;
+    font-family: "PT Sans Caption", sans-serif;
     font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
 }
-#quota p{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 35px;
-    font-weight: 400;
+
+h1 {
+    font-family: "Pacifico", cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 50px;
+    line-height: 60px;
 }
-#quota button{
-    transition: all .6s;
-    width: 200px;
-    background-color: blue;
+
+h2 {
+    font-family: "Righteous", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 30px;
 }
-#quota button:hover {
-    background-color: green;
+.bookmarkbody {
+    border-top: 2px dotted black;
+     border-bottom: 2px dotted black;
+     margin-bottom: 20px;
+}
+
+.bookmark-link button{
+    width: 100px;
 }
